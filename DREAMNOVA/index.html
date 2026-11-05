@@ -82,3 +82,5 @@ function playVideo(e){e.preventDefault();const id=videoId(document.getElementByI
 function movieSearch(e){e.preventDefault();const q=document.getElementById('movieQuery')?.value.trim();if(q){showPage('youtube');document.getElementById('ytQuery').value=q+' movie trailers';document.getElementById('ytQuery').form.requestSubmit()}}
 function moviePreset(q){showPage('youtube');document.getElementById('ytQuery').value=q;document.getElementById('ytQuery').form.requestSubmit()}
 </script></body></html>
+
+
